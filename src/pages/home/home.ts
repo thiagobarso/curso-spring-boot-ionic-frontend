@@ -49,5 +49,9 @@ export class HomePage {
     erro => {});
     
   }
+
+  signup(){
+    this.navCtrl.push('SignupPage');
+  }
     
 }
